@@ -1,0 +1,137 @@
+[
+  {
+    "id": {
+      "bioguide": "G000061",
+      "fec": [
+        "H0CA25105"
+      ],
+      "govtrack": 456792,
+      "opensecrets": "N00044298",
+      "wikipedia": "Mike Garcia (politician)",
+      "wikidata": "Q94236068",
+      "ballotpedia": "Mike Garcia",
+      "google_entity_id": "kg:/g/11j2j3x1pl"
+    },
+    "name": {
+      "first": "Mike",
+      "last": "Garcia",
+      "official_full": "Mike Garcia"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1976-04-24"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2020-05-19",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 25,
+        "party": "Republican",
+        "address": "1130 Longworth House Office Building Washington DC 20515-0525",
+        "office": "1130 Longworth House Office Building",
+        "phone": "202-225-1956"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 25,
+        "party": "Republican",
+        "address": "1535 Longworth House Office Building Washington DC 20515-0525",
+        "office": "1535 Longworth House Office Building",
+        "phone": "202-225-1956",
+        "url": "https://mikegarcia.house.gov"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "J000020",
+      "fec": [
+        "H0NY27090"
+      ],
+      "govtrack": 456793,
+      "opensecrets": "N00044575",
+      "wikipedia": "Chris Jacobs (politician)",
+      "wikidata": "Q5112625",
+      "ballotpedia": "Christopher Jacobs"
+    },
+    "name": {
+      "first": "Chris",
+      "last": "Jacobs",
+      "official_full": "Chris Jacobs"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1966-11-28"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2020-07-21",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 27,
+        "party": "Republican",
+        "address": "2243 Rayburn House Office Building Washington DC 20515-3227",
+        "office": "2243 Rayburn House Office Building",
+        "phone": "202-225-5265"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 27,
+        "party": "Republican",
+        "address": "214 Cannon House Office Building Washington DC 20515-3227",
+        "office": "214 Cannon House Office Building",
+        "phone": "202-225-5265",
+        "url": "https://jacobs.house.gov"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "K000377",
+      "lis": "S406",
+      "fec": [
+        "S0AZ00350"
+      ],
+      "govtrack": 456794,
+      "opensecrets": "N00044223",
+      "wikipedia": "Mark Kelly",
+      "wikidata": "Q357510",
+      "ballotpedia": "Mark Kelly"
+    },
+    "name": {
+      "first": "Mark",
+      "last": "Kelly",
+      "official_full": "Mark Kelly"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1964-02-21"
+    },
+    "terms": [
+      {
+        "type": "sen",
+        "start": "2020-12-02",
+        "end": "2023-01-03",
+        "how": "special-election",
+        "state": "AZ",
+        "class": 3,
+        "party": "Democrat",
+        "state_rank": "junior",
+        "url": "https://www.kelly.senate.gov",
+        "contact_form": "https://www.kelly.senate.gov",
+        "address": "516 Hart Senate Office Building Washington DC 20510",
+        "office": "516 Hart Senate Office Building",
+        "phone": "202-224-2235"
+      }
+    ]
+  }
+]

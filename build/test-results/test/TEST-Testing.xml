@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing" tests="14" skipped="0" failures="0" errors="0" timestamp="2023-05-05T05:46:43" hostname="Davids-MacBook-Air.local" time="0.425">
+  <properties/>
+  <testcase name="ageCounterUnitTest()" classname="Testing" time="0.13"/>
+  <testcase name="partyCounterUnitTest()" classname="Testing" time="0.003"/>
+  <testcase name="FirstLoaderIntegrationTest()" classname="Testing" time="0.007"/>
+  <testcase name="sortedAgeMethodUnitTest()" classname="Testing" time="0.088"/>
+  <testcase name="length_Of_Time_In_Congress_For_Members_UnitTest()" classname="Testing" time="0.025"/>
+  <testcase name="customSortedMethodUnitTest()" classname="Testing" time="0.104"/>
+  <testcase name="youngestMemberUnitTest()" classname="Testing" time="0.024"/>
+  <testcase name="SecondMemberUnitTest()" classname="Testing" time="0.008"/>
+  <testcase name="firstMemberUnitTest()" classname="Testing" time="0.007"/>
+  <testcase name="NonExistingFileTest()" classname="Testing" time="0.001"/>
+  <testcase name="averageAgesForPartiesUnitTest()" classname="Testing" time="0.007"/>
+  <testcase name="getRecentPartyMethodUnitTest()" classname="Testing" time="0.006"/>
+  <testcase name="FinderNameUnitTest()" classname="Testing" time="0.012"/>
+  <testcase name="SecondLoaderIntegrationTest()" classname="Testing" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

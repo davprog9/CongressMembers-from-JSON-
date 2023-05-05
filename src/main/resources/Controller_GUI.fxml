@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ControllerGUI">
+   <children>
+      <Label fx:id="WelcomeLabel" layoutX="245.0" layoutY="21.0" text="Welcome to CongressMembers GUI" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="51.0" layoutY="53.0" text="Available commands:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label id="fullnameLabel" layoutX="250.0" layoutY="54.0" text="Provide full name to find a member like - Sherrod Brown">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label id="numberOfPeopleInParty" layoutX="250.0" layoutY="71.0" text="Provide a party to see number of people in each of it">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label id="nOldestPeople" layoutX="250.0" layoutY="89.0" text="Request N oldest people by providing a number &lt; 535">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label id="averageAgeParty" layoutX="250.0" layoutY="107.0" text="Provide a party to get average age of that party members">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label id="youngestDemocrat" layoutX="250.0" layoutY="125.0" text="Find the youngest democrat - NO NEED TO PROVIDE ANYTHING" />
+      <TextField fx:id="textFieldCommand" layoutX="51.0" layoutY="190.0" prefHeight="26.0" prefWidth="258.0" promptText="Choose a command from the top please!" />
+      <Button fx:id="getNumberOfMembersButton" layoutX="51.0" layoutY="264.0" mnemonicParsing="false" onAction="#getNumberOfMembersButtonClicked" text="Get number of members from party" />
+      <Button fx:id="getByNameButton" layoutX="51.0" layoutY="232.0" mnemonicParsing="false" onAction="#getByNameButtonClicked" text="Get member by name" />
+      <Button fx:id="getNOldestPeopleButton" layoutX="51.0" layoutY="300.0" mnemonicParsing="false" onAction="#getNOldestPeopleButtonClicked" text="Get N oldest people" />
+      <Button fx:id="getAverageAgeForPartyButton" layoutX="51.0" layoutY="334.0" mnemonicParsing="false" onAction="#getAverageAgeForPartyButtonClicked" text="Get average age for party" />
+      <Button fx:id="getYoungestDemocratButton" layoutX="51.0" layoutY="367.0" mnemonicParsing="false" onAction="#getYoungestDemocratButtonClicked" text="Get the youngest democrat" />
+      <TextArea fx:id="resultLabel" layoutX="52.0" layoutY="409.0" prefHeight="184.0" prefWidth="615.0" wrapText="true" />
+   </children>
+</AnchorPane>

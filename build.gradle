@@ -1,0 +1,73 @@
+import org.gradle.nativeplatform.platform.internal.DefaultNativePlatform
+
+plugins {
+    id 'application'
+    id 'java'
+    id 'idea'
+    id 'org.beryx.jlink' version '2.23.1'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+def currentOS = DefaultNativePlatform.currentOperatingSystem;
+def platform
+if (currentOS.isWindows()) {
+    platform = 'win'
+} else if (currentOS.isLinux()) {
+    platform = 'linux'
+} else if (currentOS.isMacOsX()) {
+    platform = 'mac-aarch64'
+}
+
+
+dependencies {
+    implementation "org.openjfx:javafx-base:19:${platform}"
+    implementation "org.openjfx:javafx-controls:19:${platform}"
+    implementation "org.openjfx:javafx-graphics:19:${platform}"
+    implementation "org.openjfx:javafx-fxml:19:${platform}"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.0'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0'
+}
+
+
+application {
+    mainModule = 'org.example'
+    mainClass = 'org.example.GuiFXML'
+}
+
+
+
+java {
+    modularity.inferModulePath = true
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.example.GuiFXML'
+        )
+    }
+}
+
+jlink {
+    launcher {
+        name = 'Intro to JavaFX'
+    }
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
+
+
